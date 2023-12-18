@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="final.css" />
+    <script src="darkmode.js"></script>
     <link href="/src/css/fontawesome.css" rel="stylesheet">
     <link href="/src/css/all.css" rel="stylesheet">
     <link href="/src/css/regular.css" rel="stylesheet">
@@ -13,12 +14,15 @@
     <title>Sample program</title>
 </head>
 
-<body>
+<body onload="loadColors()">
    
-    <div onclick="setColors()" class="modesButton">
-        <i id="darkmodeIcon"  class="fa-solid fa-moon darkmodeIcon"></i>
-        <p id="darkmodeText" >Dark mode</p>
-      </div>
+    <div class="logoanddarkmode">
+        <img id="mylogo" class="logo" src="./src/images/avis-logo - green.png">
+        <div onclick="setColors()" class="modesButton">
+          <i id="darkmodeIcon" class="fa-solid fa-moon "></i>
+          <p id="darkmodeText">Dark mode</p>
+        </div>
+    </div>
     <div class="title">
         
         <a class="gobackbutton" href="/">

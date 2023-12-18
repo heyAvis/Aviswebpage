@@ -20,7 +20,18 @@ body {
     margin: auto;
 }
 
+.logoanddarkmode{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
 
+img.logo{
+    height: auto;
+    width: 50px;
+    margin-top: 20px;
+}
 
 p {
     word-wrap: break-word;
