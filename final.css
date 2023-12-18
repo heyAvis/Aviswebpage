@@ -411,7 +411,6 @@ a {
    
     width: inherit;
     box-sizing: border-box;
-    border: 1px solid #ddd;
     margin-top: 50px;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -466,7 +465,6 @@ a {
     font-family: "Public Sans", sans-serif;
     font-weight: 700;
     color: #ffffff;
-    border: 1px solid #ffffff;
     box-sizing: border-box;
 }
 
@@ -486,7 +484,6 @@ a {
     font-family: "Public Sans", sans-serif;
     font-weight: 700;
     color: #ffffff;
-    border: 1px solid #ffffff;
     box-sizing: border-box;
 }
 
