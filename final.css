@@ -45,14 +45,14 @@ p {
 
 .container {
     display: flex;
-    /* width: 900px; */
+    
     box-sizing: border-box;
-    /* border: 1px solid #ddd; */
+    
     margin-top: 50px;
     margin-left: 10px;
     margin-right: 10px;
     justify-content: space-between;
-    /* color: #cecece; */
+    
 }
 
 header {
@@ -61,8 +61,8 @@ header {
     justify-content: space-between;
     width: 50%;
     height: 500px;
-    /* border: 1px solid #ddd; */
-    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+   
+   
     overflow: hidden;
     font-family: "Public Sans";
     padding-right: 20px;
@@ -74,7 +74,7 @@ header {
     height: 800px;
     display: flex;
     flex-direction: column;
-    /* margin-right: 10px; */
+   
 }
 
 .Vicente {
@@ -125,7 +125,7 @@ header {
     display: flex;
     align-items: center;
     padding: 20px;
-    /* margin-top: 130px; */
+   
 }
 
 .socials i {
@@ -166,11 +166,9 @@ header {
 }
 
 .clickable-link {
-    /* Set the desired color for the clickable link */
-    /* color: #13df9b; */
-    /* Add underline to indicate it's a link (you can customize this) */
+   
     text-decoration: none;
-    /* Make the link cursor on hover for better user experience */
+   
     cursor: pointer;
 }
 
@@ -226,9 +224,8 @@ a {
     display: flex;
     flex-direction: row;
     margin: 15px;
-    /* padding: 5px 5px; */
+   
     border-radius: 5px;
-    /* margin-bottom: 15px; */
     align-items: center;
     padding: 20px 20px;
 }
@@ -271,7 +268,7 @@ a {
     margin: 5px;
     padding: 10px 10px;
     border-radius: 5px;
-    /* color: #79f3cb; */
+    
     margin-bottom: 50px;
 }
 
@@ -281,7 +278,7 @@ a {
     margin: 5px;
     padding: 10px 10px;
     border-radius: 5px;
-    /* color: #79f3cb; */
+   
     margin-bottom: 50px;
 }
 
@@ -305,7 +302,7 @@ a {
     margin-top: 30px;
 }
 
-/* aboutmecss */
+
 
 
 .about-container {
@@ -327,14 +324,14 @@ a {
     flex-grow: 2;
     box-sizing: border-box;
     padding-right: 30px;
-    /* margin-right: 80px; */
+  
 
 
 }
 
 .aboutme .contact-details {
     flex-grow: 1;
-    /* margin-left: 50px; */
+   
 }
 
 .contact-details .detail-card {
@@ -361,17 +358,16 @@ a {
     margin-right: 10px;
 }
 
-/* photograpthy html css */
+
 
 
 .title {
     width: 100%;
-    /* height: 150px; */
+    
     margin: 50px auto;
     font-family: "Public Sans", sans-serif;
     font-weight: 700;
-    /* color: #ffffff; */
-    /* border: 1px solid #ffffff; */
+    
     box-sizing: border-box;
     color: var(--textColor);
     display: flex;
@@ -401,7 +397,7 @@ a {
 
 .photos-parts {
     display: flex;
-    /* width: 900px; */
+   
     width: inherit;
     box-sizing: border-box;
     border: 1px solid #ddd;
@@ -440,10 +436,10 @@ a {
     font-family: "Public Sans", sans-serif;
     font-weight: 300;
     margin-bottom: 20px;
-    /* color: #ffffff; */
+    
 }
 
-/* bookends html css */
+
 
 
 .parts {
@@ -463,7 +459,7 @@ a {
     box-sizing: border-box;
 }
 
-/* java sample program html css */
+
 
 
 .parts {
@@ -475,7 +471,7 @@ a {
     align-items: center;
     font-size: 58px;
     line-height: 62px;
-    /* margin: 20px auto; */
+    
     font-family: "Public Sans", sans-serif;
     font-weight: 700;
     color: #ffffff;
